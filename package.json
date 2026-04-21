@@ -1,0 +1,40 @@
+{
+  "name": "is-christmas",
+  "version": "1.0.0",
+  "description": "Check whether a date is Christmas using the Temporal API.",
+  "main": "./main.js",
+  "type": "module",
+  "types": "./main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./main.d.ts",
+      "import": "./main.js",
+      "default": "./main.js"
+    }
+  },
+  "files": [
+    "main.js",
+    "main.d.ts"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "christmas",
+    "date",
+    "temporal",
+    "esm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcopollacci/is-christmas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcopollacci/is-christmas/issues"
+  },
+  "homepage": "https://github.com/marcopollacci/is-christmas#readme",
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0"
+}
