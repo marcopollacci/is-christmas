@@ -35,6 +35,10 @@ test("accepts an ISO datetime string", () => {
   assert.equal(isChristmas("2026-12-25T00:00:00.000Z"), true);
 });
 
+test("accepts an ISO datetime string with an offset", () => {
+  assert.equal(isChristmas("2026-12-25T23:59:59+02:00"), true);
+});
+
 test("rejects non-string inputs", () => {
   assert.throws(
     () => isChristmas({ year: 2026, month: 12, day: 25 }),

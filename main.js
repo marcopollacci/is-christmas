@@ -15,8 +15,13 @@ export const isChristmas = (today) => {
     throw new TypeError("Expected an ISO date or ISO datetime string.");
   }
 
-  const date = today
-    ? Temporal.PlainDate.from(today)
+  const normalizedToday =
+    typeof today === "string" && ISO_DATETIME.test(today)
+      ? today.split("T")[0]
+      : today;
+
+  const date = normalizedToday
+    ? Temporal.PlainDate.from(normalizedToday)
     : Temporal.Now.plainDateISO();
 
   return date.month === 12 && date.day === 25;
