@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/marcopollacci/is-christmas#readme",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.33.0"
 }
