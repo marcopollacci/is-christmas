@@ -1,6 +1,6 @@
 {
   "name": "@marcopollacci/is-christmas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check whether a date is Christmas using the Temporal API.",
   "main": "./main.js",
   "type": "module",
