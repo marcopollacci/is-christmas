@@ -1,5 +1,5 @@
 {
-  "name": "is-christmas",
+  "name": "@marcopollacci/is-christmas",
   "version": "1.0.0",
   "description": "Check whether a date is Christmas using the Temporal API.",
   "main": "./main.js",
@@ -34,7 +34,10 @@
     "url": "https://github.com/marcopollacci/is-christmas/issues"
   },
   "homepage": "https://github.com/marcopollacci/is-christmas#readme",
-  "author": "",
+  "author": "Marco Pollacci",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "packageManager": "pnpm@10.33.0"
 }
